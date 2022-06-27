@@ -4,7 +4,6 @@ export const ProfileWraper = styled.div`
   width: 300px;
   background-color: white;
   margin: 0 auto;
-  margin-top: 50px;
   box-shadow: 0 0 10px 3px gray;
 `;
 export const Description = styled.div`

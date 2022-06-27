@@ -12,6 +12,8 @@ export const Description = styled.div`
   text-align: center;
 `;
 export const Img = styled.img`
+  border-radius: 50%;
+  border: 1px solid #e4e9f0;
   width: calc(100% / 3);
   display: block;
   margin: 0 auto;

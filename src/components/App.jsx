@@ -3,7 +3,7 @@ import data from 'json/data';
 import friends from 'json/friends';
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
-import { Friends } from './Friends/Friends';
+import { FriendList } from './Friends/Friends';
 import { styled } from '@emotion/styled';
 const { username, tag, location, avatar, stats } = user;
 
@@ -21,7 +21,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
 
-      <Friends friends={friends} />
+      <FriendList friends={friends} />
     </div>
   );
 };

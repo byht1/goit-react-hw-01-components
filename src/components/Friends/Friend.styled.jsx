@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const FriendsList = styled.ul`
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   margin-top: 50px;
   display: flex;
@@ -29,7 +29,7 @@ export const Offline = styled.span`
   background-color: red;
 `;
 export const Img = styled.img`
-  width: 80px;
+  width: 48px;
   border: 1px solid gray;
   border-radius: 10px;
 `;

@@ -4,7 +4,12 @@ import { App } from 'components/App';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode
+    BrowserRouter
+    basename="
+goit-react-hw-01-components
+"
+  >
     <App />
   </React.StrictMode>
 );

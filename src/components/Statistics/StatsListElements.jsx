@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { Item, Label, Percentage } from './Statistics.styled';
 import { getRandomHexColor } from './../function/colot';
 
